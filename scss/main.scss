@@ -48,13 +48,17 @@ ul {
 	height: 100px;
 	background-image: url("../img/nav-logo.png");
 	background-repeat: no-repeat;
+	margin-right: auto;
 }
 
 .nav {
 	display: inline-flex;
+	margin-right: 0;
 
 	&__item {
 		display: inline-block;
+		margin: auto 20px auto 0;
+		font-style: "Roboto", sans-serif;
 	}
 }
 
